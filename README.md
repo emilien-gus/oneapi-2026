@@ -520,7 +520,7 @@ std::vector<float> JacobiKokkos(
 |Group|Name|Result|Rank|
 |-----|----|------|----|
 |**REF**|**REF**|**0.2701**|**-**|
-|3822B1FI1|beskhmelnova_kseniya|BUILD FAILED|-|
+|3822B1FI1|beskhmelnova_kseniya|TOO SLOW|-|
 |3822B1FI1|chistov_alexey|BUILD FAILED|-|
 |3822B1FI3|lopatin_ilya|BUILD FAILED|-|
 |3822B1FI3|kolodkin_grigorii|BUILD FAILED|-|

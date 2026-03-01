@@ -1,5 +1,1 @@
-/usr/bin/ld: /tmp/icpx-3aeeedd463/main-8074b5.o: in function `Run(int, sycl::_V1::device)':
-main.cpp:(.text+0x3d8): undefined reference to `JacobiDevONEAPI(std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >, float, sycl::_V1::device)'
-/usr/bin/ld: /tmp/icpx-3aeeedd463/main-8074b5.o: in function `main':
-main.cpp:(.text+0x1045): undefined reference to `JacobiDevONEAPI(std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >, float, sycl::_V1::device)'
-icpx: error: linker command failed with exit code 1 (use -v to see invocation)
+Your application is too slow (> 7 seconds)
