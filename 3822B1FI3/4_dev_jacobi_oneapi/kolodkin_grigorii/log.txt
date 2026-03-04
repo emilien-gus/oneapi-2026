@@ -1,4 +1,0 @@
-/home/crazyproger/sandbox/oneapi-2026/3822B1FI3/4_dev_jacobi_oneapi/kolodkin_grigorii/dev_jacobi_oneapi.cpp:46:31: error: no member named 'fabs' in namespace 'std'
-   46 |             float diff = std::fabs(x_host[i] - x_old[i]);
-      |                          ~~~~~^
-1 error generated.
