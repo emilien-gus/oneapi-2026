@@ -507,7 +507,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|kabalova_valeria|0.8483|1|
 |3822B1FI3|lopatin_ilya|0.9945|1|
 |3822B1FI1|drozhdinov_dmitriy|0.9980|6|
-|3822B1FI1|shulpin_ilya|BUILD FAILED|-|
+|3822B1FI1|shulpin_ilya|1.0230|8|
 
 ## 3_acc_jacobi_oneapi (4096 elements)
 |Group|Name|Result|Rank|
@@ -591,7 +591,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|drozhdinov_dmitriy|5/9|288|
 |3822B1FI1|kabalova_valeria|2/9|117|
 |3822B1FI1|rezantseva_anastasia|2/9|114|
-|3822B1FI1|shulpin_ilya|1/9|56|
+|3822B1FI1|shulpin_ilya|2/9|106|
 |3822B1FI1|shurigin_sergey|6/9|348|
 |3822B1FI1|solovev_alexey|6/9|352|
 
