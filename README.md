@@ -562,10 +562,10 @@ std::vector<float> JacobiKokkos(
 |Group|Name|Result|Rank|
 |-----|----|------|----|
 |3822B1FI1|beskhmelnova_kseniya|0.4091|2|
+|3822B1FI1|solovev_alexey|0.4340|3|
 |3822B1FI1|chistov_alexey|0.4392|1|
 |**REF**|**REF**|**0.4392**|**-**|
 |3822B1FI3|kolodkin_grigorii|0.4450|1|
-|3822B1FI1|solovev_alexey|TEST FAILED|-|
 
 ## 8_integral_kokkos (65536 elements)
 |Group|Name|Result|Rank|
@@ -588,13 +588,13 @@ std::vector<float> JacobiKokkos(
 |Group|Name|Passed|Score|
 |-----|----|------|-----|
 |3822B1FI1|beskhmelnova_kseniya|**9/9**|**551**|
-|3822B1FI1|chistov_alexey|**9/9**|**558**|
+|3822B1FI1|chistov_alexey|**9/9**|**557**|
 |3822B1FI1|drozhdinov_dmitriy|5/9|288|
 |3822B1FI1|kabalova_valeria|2/9|117|
 |3822B1FI1|rezantseva_anastasia|2/9|114|
 |3822B1FI1|shulpin_ilya|2/9|106|
 |3822B1FI1|shurigin_sergey|6/9|348|
-|3822B1FI1|solovev_alexey|6/9|352|
+|3822B1FI1|solovev_alexey|7/9|413|
 
 Passed: 2
 
