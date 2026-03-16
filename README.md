@@ -591,6 +591,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|beskhmelnova_kseniya|0.0011|2|
 |**REF**|**REF**|**0.3629**|**-**|
 |3822B1FI3|kolodkin_grigorii|2.3206|1|
+|3822B1FI1|shulpin_ilya|2.9876|4|
 
 ## 9_jacobi_kokkos (4096 elements)
 |Group|Name|Result|Rank|
@@ -610,7 +611,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|drozhdinov_dmitriy|6/9|341|
 |3822B1FI1|kabalova_valeria|2/9|117|
 |3822B1FI1|rezantseva_anastasia|6/9|349|
-|3822B1FI1|shulpin_ilya|2/9|106|
+|3822B1FI1|shulpin_ilya|3/9|164|
 |3822B1FI1|shurigin_sergey|6/9|344|
 |3822B1FI1|solovev_alexey|**9/9**|**531**|
 
