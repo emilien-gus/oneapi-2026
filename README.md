@@ -495,7 +495,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|shurigin_sergey|0.2419|4|
 |3822B1FI3|kolodkin_grigorii|0.2419|2|
 |**REF**|**REF**|**0.2492**|**-**|
-|3822B1FI3|chizhov_maxim|TOO SLOW|-|
+|3822B1FI3|chizhov_maxim|0.3237|7|
 
 ## 2_integral_oneapi (65536 elements)
 |Group|Name|Result|Rank|
@@ -641,7 +641,7 @@ Passed: 0
 ## 3822B1FI3
 |Group|Name|Passed|Score|
 |-----|----|------|-----|
-|3822B1FI3|chizhov_maxim|0/9|0|
+|3822B1FI3|chizhov_maxim|1/9|52|
 |3822B1FI3|frolova_elizaveta|8/9|492|
 |3822B1FI3|kholin_kirill|3/9|178|
 |3822B1FI3|kolodkin_grigorii|**9/9**|**562**|
