@@ -1,29 +1,33 @@
 #include "integral_oneapi.h"
+#include <cmath>
 
-float IntegralONEAPI(float start, float end, int count, sycl::device device) {
-  float res = 0.0f;
-  const float step = (end - start) / count;
+float IntegralONEAPI(float start, float end, int count, sycl::device dev) {
+    const float h = (end - start) / static_cast<float>(count);
+    float total_sum = 0.0f;
 
-  sycl::queue q(device);
+    sycl::queue compute_queue(dev);
 
-  {
-    sycl::buffer<float> res_buf(&res, 1);
+    {
+        sycl::buffer<float, 1> result_buffer(&total_sum, 1);
 
-    q.submit([&](sycl::handler& cgh) {
-      auto sum = sycl::reduction(res_buf, cgh, sycl::plus<>());
+        compute_queue.submit([&](sycl::handler& h_cmd) {
+            auto aggregate = sycl::reduction(result_buffer, h_cmd, sycl::plus<float>());
 
-      cgh.parallel_for(
-        sycl::range<2>(count, count),
-        sum,
-        [=](sycl::id<2> id, auto& total) {
-          float x = start + step * (id[0] + 0.5f);
-          float y = start + step * (id[1] + 0.5f);
+            h_cmd.parallel_for(
+                sycl::range<2>(count, count), 
+                aggregate, 
+                [=](sycl::id<2> index, auto& sum_ref) {
+                    float x_mid = start + (static_cast<float>(index[0]) + 0.5f) * h;
+                    float y_mid = start + (static_cast<float>(index[1]) + 0.5f) * h;
 
-          total += sycl::sin(x) * sycl::cos(y);
-        }
-      );
-      }).wait();
-  }
+                    float val = sycl::sin(x_mid) * sycl::cos(y_mid);
+                    
+                    sum_ref.combine(val);
+                }
+            );
+        });
+        compute_queue.wait(); 
+    }
 
-  return res * step * step;
+    return total_sum * (h * h);
 }
