@@ -569,6 +569,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI3|lysov_ivan|0.3307|5|
 |3822B1FI1|drozhdinov_dmitriy|0.3362|4|
 |3822B1FI2|yasakova_tanya|0.3389|2|
+|3822B1FI2|khokhlov_andrey|0.4715|3|
 |3822B1FI3|frolova_elizaveta|0.4842|2|
 |3822B1FI1|beskhmelnova_kseniya|0.5692|1|
 |3822B1FI1|chistov_alexey|0.6086|2|
@@ -593,6 +594,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI3|lopatin_ilya|0.3664|3|
 |3822B1FI3|kolodkin_grigorii|0.4017|1|
 |3822B1FI3|frolova_elizaveta|0.4647|2|
+|3822B1FI2|khokhlov_andrey|TEST FAILED|-|
 |3822B1FI3|ekaterina_kozlova|BUILD FAILED|-|
 
 ## 6_block_gemm_oneapi (3072 elements)
@@ -615,6 +617,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI3|lysov_ivan|0.9502|6|
 |3822B1FI3|kolodkin_grigorii|2.1427|1|
 |3822B1FI1|shulpin_ilya|3.5330|7|
+|3822B1FI2|khokhlov_andrey|RUN FAILED|-|
 
 ## 7_mkl_gemm_oneapi (3072 elements)
 |Group|Name|Result|Rank|
@@ -695,7 +698,7 @@ Passed: 6
 |-----|----|------|-----|
 |3822B1FI2|bessonov_egor|**9/9**|**566**|
 |3822B1FI2|guseynov_emil|2/9|121|
-|3822B1FI2|khokhlov_andrey|2/9|120|
+|3822B1FI2|khokhlov_andrey|3/9|180|
 |3822B1FI2|yasakova_tanya|**9/9**|**563**|
 
 Passed: 2
