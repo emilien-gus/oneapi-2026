@@ -48,7 +48,7 @@ std::vector<float> JacobiAccONEAPI(
 
             for (int i = 0; i < dim; ++i) {
                 if (std::fabs(curr_acc[i] - prev_acc[i]) >= accuracy) {
-                    ok = false;
+                    flag = false;
                 }
                 prev_acc[i] = curr_acc[i];
             }
