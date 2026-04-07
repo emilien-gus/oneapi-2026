@@ -1,0 +1,4 @@
+/home/crazyproger/sandbox/oneapi-2026/3822B1FI1/3_acc_jacobi_oneapi/grudzin_konstantin/acc_jacobi_oneapi.cpp:1:10: fatal error: 'acc_jacobi_oneapi.handler' file not found
+    1 | #include "acc_jacobi_oneapi.handler"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
