@@ -19,6 +19,6 @@ void Permutations(dictionary_t& dictionary) {
   }
 
   for (auto& row : dictionary) {
-    std::sort(row.second.begin(), row.second.end());
+    std::sort(row.second.rbegin(), row.second.rend());
   }
 }
