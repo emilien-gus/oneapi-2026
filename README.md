@@ -687,6 +687,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI3|sozonov_ilya|0.8276|9|
 |3822B1FI1|mironov_arseniy|0.8297|10|
 |3822B1FI2|guseynov_emil|0.8647|4|
+|3822B1FI2|dormidontov_egor|0.8691|9|
 |3822B1FI1|kuznetsov_mikhail|0.8693|14|
 |3822B1FI3|shmidt_olga|0.8705|10|
 |3822B1FI2|shkurinskaya_elena|0.8731|8|
@@ -737,6 +738,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|kuznetsov_mikhail|0.3019|13|
 |3822B1FI1|mironov_arseniy|0.3027|10|
 |3822B1FI1|suvorov_dmitrii|0.3069|12|
+|3822B1FI2|dormidontov_egor|0.3104|9|
 |3822B1FI2|guseynov_emil|0.3119|4|
 |3822B1FI3|ekaterina_kozlova|0.3985|4|
 |3822B1FI1|shurigin_sergey|0.4019|7|
@@ -782,6 +784,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI3|chizhov_maxim|2.3227|6|
 |3822B1FI1|grudzin_konstantin|2.3227|15|
 |3822B1FI2|khokhlov_andrey|2.3227|4|
+|3822B1FI2|dormidontov_egor|2.3228|9|
 |3822B1FI1|vershinina_olga|2.3228|13|
 |3822B1FI1|ionova_ekaterina|2.3228|6|
 |3822B1FI1|drozhdinov_dmitriy|2.3230|7|
@@ -808,6 +811,7 @@ std::vector<float> JacobiKokkos(
 |**REF**|**REF**|**0.2679**|**-**|
 |3822B1FI2|plekhanov_daniil|0.2807|6|
 |3822B1FI2|khokhlov_andrey|0.2865|3|
+|3822B1FI2|dormidontov_egor|0.2895|8|
 |3822B1FI3|koshkin_nikita|0.2975|8|
 |3822B1FI1|mironov_arseniy|0.2993|10|
 |3822B1FI1|grudzin_konstantin|0.3034|14|
@@ -859,18 +863,18 @@ Passed: 12
 ## 3822B1FI2
 |Group|Name|Passed|Score|
 |-----|----|------|-----|
-|3822B1FI2|bessonov_egor|**9/9**|**534**|
-|3822B1FI2|dormidontov_egor|5/9|281|
-|3822B1FI2|guseynov_emil|7/9|405|
-|3822B1FI2|khokhlov_andrey|**9/9**|**529**|
-|3822B1FI2|plekhanov_daniil|**9/9**|**514**|
+|3822B1FI2|bessonov_egor|**9/9**|**530**|
+|3822B1FI2|dormidontov_egor|**9/9**|**494**|
+|3822B1FI2|guseynov_emil|7/9|403|
+|3822B1FI2|khokhlov_andrey|**9/9**|**528**|
+|3822B1FI2|plekhanov_daniil|**9/9**|**513**|
 |3822B1FI2|sdobnov_vladimir|2/9|108|
-|3822B1FI2|shkurinskaya_elena|**9/9**|**481**|
-|3822B1FI2|vyunov_danila|6/9|323|
-|3822B1FI2|vyunova_ekaterina|7/9|391|
-|3822B1FI2|yasakova_tanya|**9/9**|**528**|
+|3822B1FI2|shkurinskaya_elena|**9/9**|**478**|
+|3822B1FI2|vyunov_danila|6/9|321|
+|3822B1FI2|vyunova_ekaterina|7/9|388|
+|3822B1FI2|yasakova_tanya|**9/9**|**525**|
 
-Passed: 5
+Passed: 6
 
 ## 3822B1FI3
 |Group|Name|Passed|Score|
@@ -889,7 +893,7 @@ Passed: 5
 
 Passed: 8
 
-**Total Passed: 25**
+**Total Passed: 26**
 
 ---
 *Maximum Score: 576 (64 per task)*
