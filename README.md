@@ -886,6 +886,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI3|frolova_elizaveta|0.3331|2|
 |3822B1FI1|korobeinikov_arseny|0.3343|16|
 |3822B1FI1|rezantseva_anastasia|0.3360|4|
+|3822B1FI3|solovyev_danila|0.3449|11|
 |3822B1FI2|yasakova_tanya|0.3641|1|
 |3822B1FI1|drozhdinov_dmitriy|0.3698|8|
 |3822B1FI3|kolodkin_grigorii|0.3787|1|
@@ -895,7 +896,6 @@ std::vector<float> JacobiKokkos(
 |3822B1FI2|vyunov_danila|BUILD FAILED|-|
 |3822B1FI3|shmidt_olga|RUN FAILED|-|
 |3822B1FI3|sozonov_ilya|RUN FAILED|-|
-|3822B1FI3|solovyev_danila|TOO SLOW|-|
 
 # Tasks Done
 ## 3822B1FI1
@@ -948,13 +948,13 @@ Passed: 6
 |3822B1FI3|ekaterina_kozlova|**9/9**|**484**|
 |3822B1FI3|frolova_elizaveta|**9/9**|**501**|
 |3822B1FI3|kholin_kirill|**9/9**|**479**|
-|3822B1FI3|kolodkin_grigorii|**9/9**|**502**|
+|3822B1FI3|kolodkin_grigorii|**9/9**|**501**|
 |3822B1FI3|koshkin_nikita|**9/9**|**448**|
 |3822B1FI3|kudryashova_irina|**9/9**|**479**|
 |3822B1FI3|lopatin_ilya|**9/9**|**506**|
 |3822B1FI3|lysov_ivan|**9/9**|**480**|
 |3822B1FI3|shmidt_olga|6/9|313|
-|3822B1FI3|solovyev_danila|7/9|340|
+|3822B1FI3|solovyev_danila|8/9|385|
 |3822B1FI3|sozonov_ilya|8/9|432|
 
 Passed: 9
