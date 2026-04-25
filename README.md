@@ -665,7 +665,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|beskhmelnova_kseniya|0.5692|1|
 |3822B1FI1|chistov_alexey|0.6086|2|
 |3822B1FI1|vershinina_olga|TEST FAILED|-|
-|3822B1FI2|guseynov_emil|BUILD FAILED|-|
+|3822B1FI2|guseynov_emil|TEST FAILED|-|
 |3822B1FI2|vyunova_ekaterina|BUILD FAILED|-|
 |3822B1FI2|vyunov_danila|BUILD FAILED|-|
 
