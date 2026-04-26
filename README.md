@@ -552,6 +552,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|solovev_alexey|0.8441|4|
 |3822B1FI1|ionova_ekaterina|0.8475|9|
 |3822B1FI1|korobeinikov_arseny|0.8475|19|
+|3822B1FI3|budazhapova_ekaterina|0.8481|13|
 |3822B1FI1|kabalova_valeria|0.8483|1|
 |3822B1FI3|lysov_ivan|0.8516|5|
 |3822B1FI3|lopatin_ilya|0.9945|1|
@@ -572,7 +573,6 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|baranov_aleksey|1.0140|18|
 |3822B1FI1|kurakin_matvey|1.0185|12|
 |3822B1FI1|shulpin_ilya|1.0230|8|
-|3822B1FI3|budazhapova_ekaterina|BUILD FAILED|-|
 
 ## 3_acc_jacobi_oneapi (4096 elements)
 |Group|Name|Result|Rank|
@@ -621,7 +621,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|suvorov_dmitrii|TEST FAILED|-|
 |3822B1FI1|vershinina_olga|BUILD FAILED|-|
 |3822B1FI2|vyunova_ekaterina|BUILD FAILED|-|
-|3822B1FI3|budazhapova_ekaterina|BUILD FAILED|-|
+|3822B1FI3|budazhapova_ekaterina|TEST FAILED|-|
 
 ## 4_dev_jacobi_oneapi (4096 elements)
 |Group|Name|Result|Rank|
@@ -887,8 +887,8 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|grudzin_konstantin|0.3034|14|
 |3822B1FI3|lysov_ivan|0.3043|7|
 |3822B1FI2|vyunova_ekaterina|0.3052|5|
-|3822B1FI1|kuznetsov_mikhail|0.3054|13|
 |3822B1FI3|kudryashova_irina|0.3054|10|
+|3822B1FI1|kuznetsov_mikhail|0.3054|13|
 |3822B1FI1|kurakin_matvey|0.3155|9|
 |3822B1FI3|lopatin_ilya|0.3165|3|
 |3822B1FI1|shurigin_sergey|0.3170|5|
@@ -908,11 +908,11 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|drozhdinov_dmitriy|0.3698|8|
 |3822B1FI3|kolodkin_grigorii|0.3787|1|
 |3822B1FI1|solovev_alexey|0.3892|3|
+|3822B1FI3|shmidt_olga|RUN FAILED|-|
 |3822B1FI1|vershinina_olga|RUN FAILED|-|
 |3822B1FI1|beresnev_anton|RUN FAILED|-|
 |3822B1FI2|vyunov_danila|BUILD FAILED|-|
 |3822B1FI2|sdobnov_vladimir|RUN FAILED|-|
-|3822B1FI3|shmidt_olga|RUN FAILED|-|
 
 # Tasks Done
 ## 3822B1FI1
@@ -961,16 +961,16 @@ Passed: 6
 ## 3822B1FI3
 |Group|Name|Passed|Score|
 |-----|----|------|-----|
-|3822B1FI3|budazhapova_ekaterina|6/9|290|
-|3822B1FI3|chizhov_maxim|**9/9**|**457**|
-|3822B1FI3|ekaterina_kozlova|**9/9**|**482**|
+|3822B1FI3|budazhapova_ekaterina|7/9|336|
+|3822B1FI3|chizhov_maxim|**9/9**|**456**|
+|3822B1FI3|ekaterina_kozlova|**9/9**|**481**|
 |3822B1FI3|frolova_elizaveta|**9/9**|**499**|
-|3822B1FI3|kholin_kirill|**9/9**|**477**|
+|3822B1FI3|kholin_kirill|**9/9**|**476**|
 |3822B1FI3|kolodkin_grigorii|**9/9**|**499**|
-|3822B1FI3|koshkin_nikita|**9/9**|**446**|
+|3822B1FI3|koshkin_nikita|**9/9**|**445**|
 |3822B1FI3|kudryashova_irina|**9/9**|**478**|
-|3822B1FI3|lopatin_ilya|**9/9**|**504**|
-|3822B1FI3|lysov_ivan|**9/9**|**478**|
+|3822B1FI3|lopatin_ilya|**9/9**|**503**|
+|3822B1FI3|lysov_ivan|**9/9**|**477**|
 |3822B1FI3|shmidt_olga|6/9|313|
 |3822B1FI3|solovyev_danila|**9/9**|**434**|
 |3822B1FI3|sozonov_ilya|**9/9**|**485**|
