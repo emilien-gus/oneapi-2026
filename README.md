@@ -904,6 +904,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|korobeinikov_arseny|0.3343|16|
 |3822B1FI1|rezantseva_anastasia|0.3360|4|
 |3822B1FI3|solovyev_danila|0.3449|11|
+|3822B1FI2|sdobnov_vladimir|0.3512|9|
 |3822B1FI2|yasakova_tanya|0.3641|1|
 |3822B1FI1|drozhdinov_dmitriy|0.3698|8|
 |3822B1FI3|kolodkin_grigorii|0.3787|1|
@@ -912,7 +913,6 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|vershinina_olga|RUN FAILED|-|
 |3822B1FI1|beresnev_anton|RUN FAILED|-|
 |3822B1FI2|vyunov_danila|BUILD FAILED|-|
-|3822B1FI2|sdobnov_vladimir|RUN FAILED|-|
 
 # Tasks Done
 ## 3822B1FI1
@@ -950,13 +950,13 @@ Passed: 16
 |3822B1FI2|guseynov_emil|8/9|455|
 |3822B1FI2|khokhlov_andrey|**9/9**|**524**|
 |3822B1FI2|plekhanov_daniil|**9/9**|**508**|
-|3822B1FI2|sdobnov_vladimir|8/9|424|
+|3822B1FI2|sdobnov_vladimir|**9/9**|**473**|
 |3822B1FI2|shkurinskaya_elena|**9/9**|**473**|
 |3822B1FI2|vyunov_danila|6/9|317|
 |3822B1FI2|vyunova_ekaterina|7/9|385|
-|3822B1FI2|yasakova_tanya|**9/9**|**519**|
+|3822B1FI2|yasakova_tanya|**9/9**|**518**|
 
-Passed: 6
+Passed: 7
 
 ## 3822B1FI3
 |Group|Name|Passed|Score|
@@ -977,7 +977,7 @@ Passed: 6
 
 Passed: 11
 
-**Total Passed: 33**
+**Total Passed: 34**
 
 ---
 *Maximum Score: 576 (64 per task)*
